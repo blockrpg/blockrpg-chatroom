@@ -1,0 +1,15 @@
+{
+  "name": "blockrpg-chatroom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node built/index.js"
+  },
+  "repository": "https://github.com/wrule/blockrpg-chatroom",
+  "author": "鸡毛 <shihao.gu@perfma.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "blockrpg-core": "^1.1.1"
+  }
+}
