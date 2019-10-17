@@ -1,1 +1,7 @@
-console.log('你好，世界');
+import { App } from 'blockrpg-core/built/SocketIO/App';
+
+const roam = new App('/chatroom', (client, app) => {
+  console.log(client.Player);
+}, true);
+
+roam.Listen();

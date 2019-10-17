@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "dev": "node built/index.js"
   },
   "repository": "https://github.com/wrule/blockrpg-chatroom",
@@ -10,6 +11,6 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "blockrpg-core": "^1.1.1"
+    "blockrpg-core": "^1.6.1"
   }
 }
